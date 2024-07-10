@@ -7,6 +7,8 @@
 #
 
 
+##  version 0.2 beta
+
 import os
 import json
 import functools
@@ -18,14 +20,6 @@ PLUGINPATH = os.path.dirname(__file__)
 SETTINGSFILE = os.path.join(PLUGINPATH,
                             "OCIO_Presets",
                             "ocioPresetsConfig.json")
-# SETTINGSFILE = os.path.join(PLUGINPATH, "ocioPresetsConfig.json")
-
-
-###         TODO   add popups
-###         TODO   def validatePresets(self):
-###         TODO   add reordering   
-###         TODO   add saving LUT
-###         TODO   add logging
 
 
 
